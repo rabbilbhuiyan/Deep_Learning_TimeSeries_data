@@ -1,2 +1,9 @@
-# Thesis-project
-The thesis work of Big Data Analytics program with codes
+## Master degree in Big Data Analytics thesis project
+The project is aimed for Master's thesis and part of the Horizon 2020 mySMARTLife project which was carried out by Forum Virium Helsinki Oy. The title of the project is ' Examination of air pollutant concentrations in Smart City Helsinki using data exploration and deep learning methods'.
+
+
+The project introduces several steps for data exploration and feature engineering. During the completion of the proposal numerous data quality issues are explored and professionally mitigated. The work is highly relevant for the Smart City and IoT community while also providing an insight into the data and forecasts through high-quality graphics. The work also introduces certain deep learning (DL) models suitable for time series forecasting, such as RNN, LSTM and GRU as well as CNN for for predicting hourly pollutant concentration of NO, NO2, CO, and O3 based on spatial and meteorological information.
+
+The study also proposes an evaluation of features selection with different combinations of features for the model’s performance and showed the accuracy is increased by fusing meteorological variables and temporal feature engineering data. Four evaluation measures such as coefficient of determination (r2), Mean Square Error (MSE), Root Mean Square Error (RMSE), and Mean Absolute Error (MAE) along with model parameter optimization are applied to find out the best model performance. It is observed that all the models performed comparatively well in prediction at 24-hour window horizons. Particularly, LSTM architecture outperforms all the models in prediction quality having lower MAE values of 0.09, 0.056, 0.096, and 0.114 for NO, NO2, CO, and O3 pollutants respectively. 
+
+Nevertheless, given the computational efficiency of the CNN algorithm, it can substitute deep feedbackward networks such as RNN, LSTM, and GRU models to predict pollutants rapidly and accurately in case of big data.
